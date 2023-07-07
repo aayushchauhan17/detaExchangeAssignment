@@ -1,0 +1,71 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #dfdfdf;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.table-header {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  gap: 2%;
+}
+.table-header h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 35px;
+}
+.table-header button {
+  width: fit-content;
+  height: 35px;
+  border-radius: 5px;
+  border: 0px solid black;
+  font-size: 18px;
+  /* font-weight: bold; */
+  background-color: #0280fa;
+  cursor: pointer;
+  color: white;
+}
+.table-container {
+  width: 80%;
+  height: 80%;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 0px;
+}
+.table-filter {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.table-filter button {
+  width: fit-content;
+  height: 35px;
+  min-width: 80px;
+  border-radius: 5px;
+  border: 0px solid black;
+  font-size: 15px;
+  background-color: #dfdfdf;
+  cursor: pointer;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.table-data {
+  display: flex;
+  flex-direction: column;
+  height: 92%;
+  overflow: auto;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
